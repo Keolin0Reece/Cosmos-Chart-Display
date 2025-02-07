@@ -13,16 +13,10 @@ CosmosChartDisplay is a Windows Forms application built in C# that retrieves and
 ## Getting Started
 ### Prerequisites
 - .NET Framework (Version compatible with Windows Forms)
-- Visual Studio (for development and debugging)
+- Visual Studio (for development and debugging).
 
-### Installation
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/CosmosChartDisplay.git
-   ```
-2. Open the solution in Visual Studio.
-3. Restore dependencies if needed.
-4. Run the application.
+## UI
+![image](https://github.com/user-attachments/assets/7f27000e-3346-4baa-88e6-ebecd0a04084)
 
 ## Usage
 1. Enter the required parameters:
@@ -33,8 +27,8 @@ CosmosChartDisplay is a Windows Forms application built in C# that retrieves and
 3. View the plotted chart and response metrics.
 
 ## API Information
-- This application interacts with a **custom-built API**.
-- The API is **not intended for external use** and serves only for documentation and demonstration purposes.
+- The API takes device data and sends it to a **Cosmos DB**, where the data is stored.
+- The stored data can then be retrieved through various **GET requests** based on different parameters.
 - Ensure proper API authentication via Bearer Token before querying data.
 
 ## Code Structure
